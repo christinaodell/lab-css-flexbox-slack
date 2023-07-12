@@ -9,6 +9,11 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
+body {
+    margin: 0;
+    font-size: 20px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
 .purple-square {
     background-color: #540B51;
@@ -16,6 +21,7 @@ footer links grey: #454245
     flex-direction: row;
     justify-content: space-between;
 
+    
 }
 
 @media (max-width: 768px) {
@@ -26,20 +32,141 @@ footer links grey: #454245
     display: none;
 }
 
-.topnav-icons{
-}
 
-.section1 {
+.greatteamwork {
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: #540B51;
     color: white;
+    
 }
 .paragraph1{
     color: orange;
     }
 
+.signupbutton {
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+
 .Googlebutton {
+    background-color: white;
+    border-color: #4285F4;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: fit-content;
+}
+
+.signupwithgooglebutton2 {
     background-color: #4285F4;
+    padding: 0;
+}
+
+.trustedcompanysection {
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+
+.trustedcompanyicons {
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.bringteamtogether{
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.choosehowyouwanttowork {
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.movefasterwithyourtools {
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.teamslargeandsmall {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.percentagecolor1 {
+    color: #540B51;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.percentagecolor2 {
+    color: #540B51;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.percentagecolor3 {
+    color: #540B51;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.welcomeend {
+    background-color: #540B51;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tryforfreebutton {
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-color: white;
+    padding: 10px;
+    margin: 5px;
+    width: fit-content;
+}
+
+.talktosalesbutton {
+    background-color: #540B51;
+    color: white;
+    text-transform: uppercase;
+    border-color: white;
+    padding: 10px;
+    margin: 5px;
+    width: fit-content;
+}
+
+.footersection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
